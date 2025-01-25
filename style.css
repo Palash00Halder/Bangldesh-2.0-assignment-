@@ -168,3 +168,90 @@ body {
     font-weight: 700px;
     line-height: 24px;
 }
+
+/* layout 2 */
+.cardstyle2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.card1 {
+    background-color: #5490F533;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.card2 {
+    background-color: #C6E4D6;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.card3 {
+    background-color: #F7EBCF;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.cardbtn1 {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #5490F5;
+    color: whitesmoke;
+}
+
+.cardbtn1:hover {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #3e5d91;
+    color: whitesmoke;
+}
+
+.cardbtn2 {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #09A15C;
+    color: whitesmoke;
+}
+
+.cardbtn2:hover {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #10613c;
+    color: whitesmoke;
+}
+
+.cardbtn3 {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #FFC239;
+    color: whitesmoke;
+}
+
+.cardbtn3:hover {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #ad7a03;
+    color: whitesmoke;
+}
