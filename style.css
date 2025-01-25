@@ -334,3 +334,66 @@ body {
     cursor: pointer;
 }
 
+/* recent part */
+.recent {
+    margin-top: 40px;
+}
+
+.recent h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+
+.recent p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #555353;
+}
+
+.recentCard {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+}
+
+.textdiv {
+    width: 740px;
+    height: 280px;
+    margin-top: 40px;
+
+
+}
+
+.imagediv {
+    width: 400px;
+    height: 280px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    background-image: url('./assets/satelite.png');
+
+}
+
+.recentBtn {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #006A50;
+    color: whitesmoke;
+}
+
+.recentBtn:hover {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #10613c;
+    color: whitesmoke;
+}
