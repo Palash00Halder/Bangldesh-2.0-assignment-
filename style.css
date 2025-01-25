@@ -1,5 +1,130 @@
 body {
     background-color: #F5F5F5;
-   
-      
+       
+}
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    
+  }
+
+
+.common {
+    width: 1280px;
+    margin: auto;
+
+    /* border: 2px solid bisque; */
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button {
+    width: 96px;
+    height: 37px;
+    border: 2px solid rgb(130, 158, 130);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: green;
+}
+.button:hover {
+    width: 96px;
+    height: 37px;
+    border: 2px solid rgb(130, 158, 130);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background-color: #004d38;
+    color: whitesmoke;
+    border: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+}
+
+.banner {
+    margin-top: 40px;
+    height: 580px;
+    border-radius: 10px;
+    background-color: #C6E4D6;
+    display: flex;
+    gap: 60px;
+    /* background-image: url('/UI/banner.png'); */
+
+}
+
+.textdivb {
+
+    width: 620px;
+    height: 320px;
+
+    margin: 117px 60px;
+}
+
+.banner p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #0E0E0E80;
+
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Btn {
+    width: 220px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #006A50;
+    color: whitesmoke;
+    margin-top: 10px;
+
+}
+
+.Btn:hover {
+    width: 220px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #10613c;
+    color: whitesmoke;
+}
+
+
+.imagedivb {
+    width: 620px;
+    height: 320px;
+
+    margin: 80px 60px;
+    background-image: url(/assets/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
